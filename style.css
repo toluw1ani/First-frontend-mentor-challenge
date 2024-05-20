@@ -1,0 +1,122 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(238, 218, 193);
+}
+@font-face {
+    font-family: 'YoungSerif-Regular';
+    src: url(YoungSerif-Regular.ttf);
+}
+@font-face {
+    font-family: 'Outfit-ExtraLight';
+    src: url(Outfit-ExtraLight.ttf);
+}
+@font-face {
+    font-family: 'Outfit-Bold';
+    src: url(Outfit-Bold.ttf);
+}
+@font-face {
+    font-family: 'Outfit-Regular';
+    src: url(Outfit-Regular.ttf);
+}
+div{
+    height: 106em;
+    width: 50em;
+    margin: auto;
+    margin-top: 80px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-bottom: 80px;
+}
+.border{
+    padding: 20px;
+}
+.border img{
+    border-radius: 20px;
+}
+.border h1{
+    font-size: 3em;
+    font-family: 'YoungSerif-Regular';
+}
+h1 + p{
+    font-family: 'Outfit-Regular';
+    color: rgb(116, 115, 102);
+}
+.preparation{
+    background-color: rgba(208, 150, 226, 0.1);
+    padding: 10px;
+}
+.preparation h3{
+    color: rgb(130, 35, 76);
+    font-family: 'Outfit-Bold';
+}
+.preparation ul li{
+    line-height: 30px;
+    color: rgb(116, 115, 102);
+    font-family: 'Outfit-Regular';
+}
+.preparation ul li::marker{
+    color: rgb(130, 35, 76);
+}
+.Ingredients h3{
+    color: rgb(137, 84, 54);
+    font-size: 25px;
+    font-family: 'YoungSerif-Regular';
+    font-weight: lighter;
+}
+.Ingredients ul li{
+    line-height: 30px;
+    color: rgb(116, 115, 102);
+    font-family: 'Outfit-Regular';
+}
+.Ingredients ul li::marker{
+    color: rgb(137, 84, 54);
+}
+.instructions h3{
+    color: rgb(137, 84, 54);
+    font-size: 25px;
+    font-family: 'YoungSerif-Regular';
+    font-weight: lighter;
+}
+.instructions ol li{
+    color: rgb(116, 115, 102);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    font-family: 'Outfit-Regular';
+}
+.instructions ol li::marker{
+    color: rgb(137, 84, 54);
+    font-family: 'Outfit-Bold';
+}
+.nutrition h3{
+    color: rgb(137, 84, 54);
+    font-size: 25px;
+    font-family: 'YoungSerif-Regular';
+    font-weight: lighter;
+}
+h3 + p{
+    font-family: 'Outfit-Regular';
+    color: rgb(116, 115, 102);
+}
+table{
+    border-collapse: collapse;
+    margin: 40px;
+    line-height: 40px;
+}
+tr{
+    border-bottom: 1px solid rgb(232, 220, 220);
+}
+.color{
+    color: rgb(137, 84, 54);
+    padding-right: 100px;
+    font-weight: bold;
+    font-family: 'Outfit-Bold';
+}
+.padding{
+    padding-right: 30em;
+    color: rgb(116, 115, 102);
+    font-family: 'Outfit-Regular';
+}
